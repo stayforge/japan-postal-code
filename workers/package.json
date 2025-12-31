@@ -1,0 +1,23 @@
+{
+  "name": "japan-postal-code-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker API for Japan Postal Code database",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "japan",
+    "postal-code",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
+
