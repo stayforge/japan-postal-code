@@ -1,0 +1,17 @@
+{
+  "local_government_code": "03209",
+  "old_postal_code": "02101",
+  "postal_code": "0210102",
+  "prefecture_name_kana": "イワテケン",
+  "city_name_kana": "イチノセキシ",
+  "town_name_kana": "ハギショウ（アカイノコ、アシノクチ、アマワラビ、オイナガレ、オオサワ、カミウツノ、カミホンゴウ、カミヨウガイ、ケショウザカ、サンガツダ、シモウツノ、シモホンゴウ、ソデヤマ、ドウノサワ、トチクラ、トチクラミナミ、ナガクラ、ナカザワ、ハチモリ、ババ、ヒロオモテ、ヒラバ、フルカマバ、マガリフチ、マツバラ、ミナミザワ、ヤギ、ヤッキリ、ヤセ、ヤハタ、ヤマノサワ）",
+  "prefecture_name": "岩手県",
+  "city_name": "一関市",
+  "town_name": "萩荘（赤猪子、芦ノ口、甘蕨、老流、大沢、上宇津野、上本郷、上要害、化粧坂、三月田、下宇津野、下本郷、外山、堂の沢、栃倉、栃倉南、長倉、中沢、八森、馬場、広面、平場、古釜場、曲淵、松原、南沢、谷起、焼切、八瀬、八幡、山ノ沢）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "1",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

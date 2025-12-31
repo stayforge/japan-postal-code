@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "35207",
+    "old_postal_code": "74402",
+    "postal_code": "7440274",
+    "prefecture_name_kana": "ヤマグチケン",
+    "city_name_kana": "クダマツシ",
+    "town_name_kana": "ヌクミ",
+    "prefecture_name": "山口県",
+    "city_name": "下松市",
+    "town_name": "温見",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "35207",
+    "old_postal_code": "74402",
+    "postal_code": "7440274",
+    "prefecture_name_kana": "ヤマグチケン",
+    "city_name_kana": "クダマツシ",
+    "town_name_kana": "ヌクミ（ウシロヤマ）",
+    "prefecture_name": "山口県",
+    "city_name": "下松市",
+    "town_name": "温見（後山）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "35207",
+    "old_postal_code": "74402",
+    "postal_code": "7440274",
+    "prefecture_name_kana": "ヤマグチケン",
+    "city_name_kana": "クダマツシ",
+    "town_name_kana": "ヌクミ（ミチダニ）",
+    "prefecture_name": "山口県",
+    "city_name": "下松市",
+    "town_name": "温見（道谷）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

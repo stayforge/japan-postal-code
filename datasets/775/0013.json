@@ -1,0 +1,17 @@
+{
+  "local_government_code": "36383",
+  "old_postal_code": "775",
+  "postal_code": "7750013",
+  "prefecture_name_kana": "トクシマケン",
+  "city_name_kana": "カイフグンムギチョウ",
+  "town_name_kana": "ムギウラ（テバジマ）",
+  "prefecture_name": "徳島県",
+  "city_name": "海部郡牟岐町",
+  "town_name": "牟岐浦（出羽島）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

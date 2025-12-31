@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "19202",
+    "old_postal_code": "403",
+    "postal_code": "4030000",
+    "prefecture_name_kana": "ヤマナシケン",
+    "city_name_kana": "フジヨシダシ",
+    "town_name_kana": "イカニケイサイガナイバアイ",
+    "prefecture_name": "山梨県",
+    "city_name": "富士吉田市",
+    "town_name": "以下に掲載がない場合",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "19423",
+    "old_postal_code": "403",
+    "postal_code": "4030000",
+    "prefecture_name_kana": "ヤマナシケン",
+    "city_name_kana": "ミナミツルグンニシカツラチョウ",
+    "town_name_kana": "イカニケイサイガナイバアイ",
+    "prefecture_name": "山梨県",
+    "city_name": "南都留郡西桂町",
+    "town_name": "以下に掲載がない場合",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "08232",
+    "old_postal_code": "31402",
+    "postal_code": "3140145",
+    "prefecture_name_kana": "イバラキケン",
+    "city_name_kana": "カミスシ",
+    "town_name_kana": "ヒライズミソト１２イリアイ",
+    "prefecture_name": "茨城県",
+    "city_name": "神栖市",
+    "town_name": "平泉外１２入会",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "08232",
+    "old_postal_code": "31401",
+    "postal_code": "3140145",
+    "prefecture_name_kana": "イバラキケン",
+    "city_name_kana": "カミスシ",
+    "town_name_kana": "ヒライズミヒガシ",
+    "prefecture_name": "茨城県",
+    "city_name": "神栖市",
+    "town_name": "平泉東",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

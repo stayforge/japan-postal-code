@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "30361",
+    "old_postal_code": "643",
+    "postal_code": "6430000",
+    "prefecture_name_kana": "ワカヤマケン",
+    "city_name_kana": "アリダグンユアサチョウ",
+    "town_name_kana": "イカニケイサイガナイバアイ",
+    "prefecture_name": "和歌山県",
+    "city_name": "有田郡湯浅町",
+    "town_name": "以下に掲載がない場合",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "30362",
+    "old_postal_code": "643",
+    "postal_code": "6430000",
+    "prefecture_name_kana": "ワカヤマケン",
+    "city_name_kana": "アリダグンヒロガワチョウ",
+    "town_name_kana": "イカニケイサイガナイバアイ",
+    "prefecture_name": "和歌山県",
+    "city_name": "有田郡広川町",
+    "town_name": "以下に掲載がない場合",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "30366",
+    "old_postal_code": "643",
+    "postal_code": "6430000",
+    "prefecture_name_kana": "ワカヤマケン",
+    "city_name_kana": "アリダグンアリダガワチョウ",
+    "town_name_kana": "イカニケイサイガナイバアイ",
+    "prefecture_name": "和歌山県",
+    "city_name": "有田郡有田川町",
+    "town_name": "以下に掲載がない場合",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

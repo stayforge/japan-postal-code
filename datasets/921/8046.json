@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "17201",
+    "old_postal_code": "92181",
+    "postal_code": "9218046",
+    "prefecture_name_kana": "イシカワケン",
+    "city_name_kana": "カナザワシ",
+    "town_name_kana": "オオクワマチ（ア、イ、イ、ウ、ウエノ、オ、オオツ、カネツキヤマ、カミカワラ、カミネコシタ、ク、ケ、ゴショガダニ、コデラヤマ、シ、シモウエノ、シモニシガケ、ダイラ、チ、ツオツ、ツヘイ、テ、ト、ナカウエノ、ナカオヤマ、ナカダイラ、ナカノオオヒラ、ニシノヤマ、ネコノシタイ、ノ、ハ、ヒラキ、ホウシヤマ、ボウヤマ、マ、マスカワブチ、ム、モトスエ、モトワクナミコウ、ヤ、リ、ル、レオツ、レコウ、ロオツ、ロコウ、ワ）",
+    "prefecture_name": "石川県",
+    "city_name": "金沢市",
+    "town_name": "大桑町（ア、イ、ヰ、ウ、上野、ヲ、オ乙、鐘搗山、上川原、上猫下、ク、ケ、御所谷、小寺山、シ、下上野、下西欠、平、チ、ツ乙、ツ丙、テ、ト、中上野、中尾山、中平、中ノ大平、西ノ山、猫シタイ、ノ、ハ、開、法師山、坊山、マ、鱒川淵、ム、元末、元涌波庚、ヤ、リ、ル、レ乙、レ甲、ロ乙、ロ甲、和）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "17201",
+    "old_postal_code": "92181",
+    "postal_code": "9218046",
+    "prefecture_name_kana": "イシカワケン",
+    "city_name_kana": "カナザワシ",
+    "town_name_kana": "ミツコウジマチ（ヘ）",
+    "prefecture_name": "石川県",
+    "city_name": "金沢市",
+    "town_name": "三小牛町（ヘ）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

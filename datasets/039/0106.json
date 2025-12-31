@@ -1,0 +1,17 @@
+{
+  "local_government_code": "02445",
+  "old_postal_code": "03901",
+  "postal_code": "0390106",
+  "prefecture_name_kana": "アオモリケン",
+  "city_name_kana": "サンノヘグンナンブチョウ",
+  "town_name_kana": "アイナイ（ソノタ）",
+  "prefecture_name": "青森県",
+  "city_name": "三戸郡南部町",
+  "town_name": "相内（その他）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "1",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

@@ -1,0 +1,17 @@
+{
+  "local_government_code": "01610",
+  "old_postal_code": "05601",
+  "postal_code": "0560145",
+  "prefecture_name_kana": "ホッカイドウ",
+  "city_name_kana": "ヒダカグンシンヒダカチョウ",
+  "town_name_kana": "シズナイメナ（１８、１２７、４５３、４６５−２、４６６、４８０バンチ）",
+  "prefecture_name": "北海道",
+  "city_name": "日高郡新ひだか町",
+  "town_name": "静内目名（１８、１２７、４５３、４６５−２、４６６、４８０番地）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "1",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

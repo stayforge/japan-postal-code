@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "08205",
+    "old_postal_code": "315",
+    "postal_code": "3150000",
+    "prefecture_name_kana": "イバラキケン",
+    "city_name_kana": "イシオカシ",
+    "town_name_kana": "イカニケイサイガナイバアイ",
+    "prefecture_name": "茨城県",
+    "city_name": "石岡市",
+    "town_name": "以下に掲載がない場合",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "08230",
+    "old_postal_code": "30001",
+    "postal_code": "3150000",
+    "prefecture_name_kana": "イバラキケン",
+    "city_name_kana": "カスミガウラシ",
+    "town_name_kana": "イカニケイサイガナイバアイ",
+    "prefecture_name": "茨城県",
+    "city_name": "かすみがうら市",
+    "town_name": "以下に掲載がない場合",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

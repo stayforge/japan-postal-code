@@ -1,0 +1,17 @@
+{
+  "local_government_code": "01578",
+  "old_postal_code": "05909",
+  "postal_code": "0590902",
+  "prefecture_name_kana": "ホッカイドウ",
+  "city_name_kana": "シラオイグンシラオイチョウ",
+  "town_name_kana": "ワカクサチョウ",
+  "prefecture_name": "北海道",
+  "city_name": "白老郡白老町",
+  "town_name": "若草町",
+  "multiple_postal_codes_per_town": "0",
+  "koaza_numbering": "0",
+  "has_chome": "1",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

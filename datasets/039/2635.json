@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "02408",
+    "old_postal_code": "03926",
+    "postal_code": "0392635",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "カミキタグントウホクマチ",
+    "town_name_kana": "オツコシ",
+    "prefecture_name": "青森県",
+    "city_name": "上北郡東北町",
+    "town_name": "乙越",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02408",
+    "old_postal_code": "03926",
+    "postal_code": "0392635",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "カミキタグントウホクマチ",
+    "town_name_kana": "ダテ",
+    "prefecture_name": "青森県",
+    "city_name": "上北郡東北町",
+    "town_name": "舘",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02408",
+    "old_postal_code": "03926",
+    "postal_code": "0392635",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "カミキタグントウホクマチ",
+    "town_name_kana": "トリグチタイ",
+    "prefecture_name": "青森県",
+    "city_name": "上北郡東北町",
+    "town_name": "鳥口平",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

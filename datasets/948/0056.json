@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "15210",
+    "old_postal_code": "948",
+    "postal_code": "9480056",
+    "prefecture_name_kana": "ニイガタケン",
+    "city_name_kana": "トオカマチシ",
+    "town_name_kana": "タカダチョウヨンチョウメ",
+    "prefecture_name": "新潟県",
+    "city_name": "十日町市",
+    "town_name": "高田町四丁目",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "1",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "15210",
+    "old_postal_code": "948",
+    "postal_code": "9480056",
+    "prefecture_name_kana": "ニイガタケン",
+    "city_name_kana": "トオカマチシ",
+    "town_name_kana": "タカダチョウゴチョウメ",
+    "prefecture_name": "新潟県",
+    "city_name": "十日町市",
+    "town_name": "高田町五丁目",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "1",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "15210",
+    "old_postal_code": "948",
+    "postal_code": "9480056",
+    "prefecture_name_kana": "ニイガタケン",
+    "city_name_kana": "トオカマチシ",
+    "town_name_kana": "タカダチョウロクチョウメ",
+    "prefecture_name": "新潟県",
+    "city_name": "十日町市",
+    "town_name": "高田町六丁目",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "1",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

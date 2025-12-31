@@ -1,0 +1,17 @@
+{
+  "local_government_code": "20321",
+  "old_postal_code": "38901",
+  "postal_code": "3890102",
+  "prefecture_name_kana": "ナガノケン",
+  "city_name_kana": "キタサクグンカルイザワマチ",
+  "town_name_kana": "カルイザワ（オオアザ）",
+  "prefecture_name": "長野県",
+  "city_name": "北佐久郡軽井沢町",
+  "town_name": "軽井沢（大字）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

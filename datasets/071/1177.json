@@ -1,0 +1,17 @@
+{
+  "local_government_code": "01204",
+  "old_postal_code": "07111",
+  "postal_code": "0711177",
+  "prefecture_name_kana": "ホッカイドウ",
+  "city_name_kana": "アサヒカワシ",
+  "town_name_kana": "エタンベツチョウヨシノ",
+  "prefecture_name": "北海道",
+  "city_name": "旭川市",
+  "town_name": "江丹別町芳野",
+  "multiple_postal_codes_per_town": "0",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

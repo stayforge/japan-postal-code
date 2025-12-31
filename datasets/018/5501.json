@@ -1,0 +1,17 @@
+{
+  "local_government_code": "02206",
+  "old_postal_code": "01855",
+  "postal_code": "0185501",
+  "prefecture_name_kana": "アオモリケン",
+  "city_name_kana": "トワダシ",
+  "town_name_kana": "オクセ（アオブナ、コタタミイシ、トワダ、トワダコハンウタルベ、トワダコハンネノクチ、トワダコハンヤスミヤ）",
+  "prefecture_name": "青森県",
+  "city_name": "十和田市",
+  "town_name": "奥瀬（青撫、小畳石、十和田、十和田湖畔宇樽部、十和田湖畔子ノ口、十和田湖畔休屋）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "1",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

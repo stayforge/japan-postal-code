@@ -1,0 +1,17 @@
+{
+  "local_government_code": "40206",
+  "old_postal_code": "826",
+  "postal_code": "8260043",
+  "prefecture_name_kana": "フクオカケン",
+  "city_name_kana": "タガワシ",
+  "town_name_kana": "ナラ（アオバチョウ、オオウラ、カイシャマチ、カスミガオカ、ゴトウジニシダンチ、ゴトウジヒガシダンチ、ノゾミガオカ、マツノキ、ミツイゴトウジ、ミドリマチ、ツキミガオカ）",
+  "prefecture_name": "福岡県",
+  "city_name": "田川市",
+  "town_name": "奈良（青葉町、大浦、会社町、霞ケ丘、後藤寺西団地、後藤寺東団地、希望ケ丘、松の木、三井後藤寺、緑町、月見ケ丘）",
+  "multiple_postal_codes_per_town": "0",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

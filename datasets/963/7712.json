@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "07521",
+    "old_postal_code": "96377",
+    "postal_code": "9637712",
+    "prefecture_name_kana": "フクシマケン",
+    "city_name_kana": "タムラグンミハルマチ",
+    "town_name_kana": "クグリキ",
+    "prefecture_name": "福島県",
+    "city_name": "田村郡三春町",
+    "town_name": "込木",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "07521",
+    "old_postal_code": "96377",
+    "postal_code": "9637712",
+    "prefecture_name_kana": "フクシマケン",
+    "city_name_kana": "タムラグンミハルマチ",
+    "town_name_kana": "ハッポウヤ",
+    "prefecture_name": "福島県",
+    "city_name": "田村郡三春町",
+    "town_name": "八方谷",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "07521",
+    "old_postal_code": "96377",
+    "postal_code": "9637712",
+    "prefecture_name_kana": "フクシマケン",
+    "city_name_kana": "タムラグンミハルマチ",
+    "town_name_kana": "ラクウチ",
+    "prefecture_name": "福島県",
+    "city_name": "田村郡三春町",
+    "town_name": "楽内",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

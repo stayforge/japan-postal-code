@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "26212",
+    "old_postal_code": "62934",
+    "postal_code": "6293412",
+    "prefecture_name_kana": "キョウトフ",
+    "city_name_kana": "キョウタンゴシ",
+    "town_name_kana": "クミハマチョウオクミタニ",
+    "prefecture_name": "京都府",
+    "city_name": "京丹後市",
+    "town_name": "久美浜町奥三谷",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "26212",
+    "old_postal_code": "62934",
+    "postal_code": "6293412",
+    "prefecture_name_kana": "キョウトフ",
+    "city_name_kana": "キョウタンゴシ",
+    "town_name_kana": "クミハマチョウクチミタニ",
+    "prefecture_name": "京都府",
+    "city_name": "京丹後市",
+    "town_name": "久美浜町口三谷",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "26212",
+    "old_postal_code": "62934",
+    "postal_code": "6293412",
+    "prefecture_name_kana": "キョウトフ",
+    "city_name_kana": "キョウタンゴシ",
+    "town_name_kana": "クミハマチョウミタニ",
+    "prefecture_name": "京都府",
+    "city_name": "京丹後市",
+    "town_name": "久美浜町三谷",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

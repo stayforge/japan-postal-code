@@ -1,0 +1,17 @@
+{
+  "local_government_code": "02405",
+  "old_postal_code": "033",
+  "postal_code": "0330072",
+  "prefecture_name_kana": "アオモリケン",
+  "city_name_kana": "カミキタグンロクノヘマチ",
+  "town_name_kana": "オリモ（イマクマ＜２１３−２３４、２４０、２４７、２６２、２６６、２７５、２７７、２８０、２９５、１１９９、１２０６、１５０４ヲノゾク＞、オオハラ、オキヤマ、カミオリモ＜１−１３、７１−１９２ヲノゾク＞）",
+  "prefecture_name": "青森県",
+  "city_name": "上北郡六戸町",
+  "town_name": "折茂（今熊「２１３〜２３４、２４０、２４７、２６２、２６６、２７５、２７７、２８０、２９５、１１９９、１２０６、１５０４を除く」、大原、沖山、上折茂「１−１３、７１−１９２を除く」）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "1",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "43101",
+    "old_postal_code": "862",
+    "postal_code": "8620955",
+    "prefecture_name_kana": "クマモトケン",
+    "city_name_kana": "クマモトシチュウオウク",
+    "town_name_kana": "クワミズホンマチ",
+    "prefecture_name": "熊本県",
+    "city_name": "熊本市中央区",
+    "town_name": "神水本町",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "43102",
+    "old_postal_code": "862",
+    "postal_code": "8620955",
+    "prefecture_name_kana": "クマモトケン",
+    "city_name_kana": "クマモトシヒガシク",
+    "town_name_kana": "クワミズホンマチ",
+    "prefecture_name": "熊本県",
+    "city_name": "熊本市東区",
+    "town_name": "神水本町",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "02210",
+    "old_postal_code": "03601",
+    "postal_code": "0360161",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "ヒラカワシ",
+    "town_name_kana": "スギダテタキモト",
+    "prefecture_name": "青森県",
+    "city_name": "平川市",
+    "town_name": "杉館滝元",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02210",
+    "old_postal_code": "03601",
+    "postal_code": "0360161",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "ヒラカワシ",
+    "town_name_kana": "スギダテマツハシ",
+    "prefecture_name": "青森県",
+    "city_name": "平川市",
+    "town_name": "杉館松橋",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02210",
+    "old_postal_code": "03601",
+    "postal_code": "0360161",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "ヒラカワシ",
+    "town_name_kana": "スギダテミヤモト",
+    "prefecture_name": "青森県",
+    "city_name": "平川市",
+    "town_name": "杉館宮元",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

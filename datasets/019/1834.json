@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "05212",
+    "old_postal_code": "01918",
+    "postal_code": "0191834",
+    "prefecture_name_kana": "アキタケン",
+    "city_name_kana": "ダイセンシ",
+    "town_name_kana": "ナンガイアゲツチヤマ",
+    "prefecture_name": "秋田県",
+    "city_name": "大仙市",
+    "town_name": "南外揚土山",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "05212",
+    "old_postal_code": "01918",
+    "postal_code": "0191834",
+    "prefecture_name_kana": "アキタケン",
+    "city_name_kana": "ダイセンシ",
+    "town_name_kana": "ナンガイキタダクロセ",
+    "prefecture_name": "秋田県",
+    "city_name": "大仙市",
+    "town_name": "南外北田黒瀬",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

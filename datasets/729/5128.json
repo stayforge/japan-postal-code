@@ -1,0 +1,17 @@
+{
+  "local_government_code": "34210",
+  "old_postal_code": "72951",
+  "postal_code": "7295128",
+  "prefecture_name_kana": "ヒロシマケン",
+  "city_name_kana": "ショウバラシ",
+  "town_name_kana": "トウジョウチョウウケバラ（オンジ、ナカノタニ）",
+  "prefecture_name": "広島県",
+  "city_name": "庄原市",
+  "town_name": "東城町受原（隠地、中ノ谷）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

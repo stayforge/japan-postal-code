@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "23427",
+    "old_postal_code": "49014",
+    "postal_code": "4901437",
+    "prefecture_name_kana": "アイチケン",
+    "city_name_kana": "アマグントビシマムラ",
+    "town_name_kana": "トビシマシンデン（モトキノゴウ）",
+    "prefecture_name": "愛知県",
+    "city_name": "海部郡飛島村",
+    "town_name": "飛島新田（元起之郷）",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "23427",
+    "old_postal_code": "49014",
+    "postal_code": "4901437",
+    "prefecture_name_kana": "アイチケン",
+    "city_name_kana": "アマグントビシマムラ",
+    "town_name_kana": "モトキ",
+    "prefecture_name": "愛知県",
+    "city_name": "海部郡飛島村",
+    "town_name": "元起",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "21217",
+    "old_postal_code": "50611",
+    "postal_code": "5061111",
+    "prefecture_name_kana": "ギフケン",
+    "city_name_kana": "ヒダシ",
+    "town_name_kana": "カミオカチョウヒガシマチ",
+    "prefecture_name": "岐阜県",
+    "city_name": "飛騨市",
+    "town_name": "神岡町東町",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "21217",
+    "old_postal_code": "50611",
+    "postal_code": "5061111",
+    "prefecture_name_kana": "ギフケン",
+    "city_name_kana": "ヒダシ",
+    "town_name_kana": "カミオカチョウロクロウ",
+    "prefecture_name": "岐阜県",
+    "city_name": "飛騨市",
+    "town_name": "神岡町六郎",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

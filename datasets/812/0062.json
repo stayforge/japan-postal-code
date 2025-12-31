@@ -1,0 +1,17 @@
+{
+  "local_government_code": "40131",
+  "old_postal_code": "812",
+  "postal_code": "8120062",
+  "prefecture_name_kana": "フクオカケン",
+  "city_name_kana": "フクオカシヒガシク",
+  "town_name_kana": "マツシマ（１、２チョウメ）",
+  "prefecture_name": "福岡県",
+  "city_name": "福岡市東区",
+  "town_name": "松島（１、２丁目）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "1",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

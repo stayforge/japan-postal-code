@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "15102",
+    "old_postal_code": "950",
+    "postal_code": "9500841",
+    "prefecture_name_kana": "ニイガタケン",
+    "city_name_kana": "ニイガタシヒガシク",
+    "town_name_kana": "ナカノヤマ",
+    "prefecture_name": "新潟県",
+    "city_name": "新潟市東区",
+    "town_name": "中野山",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "1",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "15104",
+    "old_postal_code": "950",
+    "postal_code": "9500841",
+    "prefecture_name_kana": "ニイガタケン",
+    "city_name_kana": "ニイガタシコウナンク",
+    "town_name_kana": "ナカノヤマ",
+    "prefecture_name": "新潟県",
+    "city_name": "新潟市江南区",
+    "town_name": "中野山",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "1",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

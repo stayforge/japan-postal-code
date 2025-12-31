@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "22211",
+    "old_postal_code": "438",
+    "postal_code": "4380074",
+    "prefecture_name_kana": "シズオカケン",
+    "city_name_kana": "イワタシ",
+    "town_name_kana": "ニノミヤ",
+    "prefecture_name": "静岡県",
+    "city_name": "磐田市",
+    "town_name": "二之宮",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "22211",
+    "old_postal_code": "438",
+    "postal_code": "4380074",
+    "prefecture_name_kana": "シズオカケン",
+    "city_name_kana": "イワタシ",
+    "town_name_kana": "ニノミヤセンゲン",
+    "prefecture_name": "静岡県",
+    "city_name": "磐田市",
+    "town_name": "二之宮浅間",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

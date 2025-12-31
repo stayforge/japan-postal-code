@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "01228",
+    "old_postal_code": "07412",
+    "postal_code": "0741273",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "フカガワシ",
+    "town_name_kana": "オトエチョウ（１−２チョウメ）",
+    "prefecture_name": "北海道",
+    "city_name": "深川市",
+    "town_name": "音江町（１〜２丁目）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "1",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "01228",
+    "old_postal_code": "07412",
+    "postal_code": "0741273",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "フカガワシ",
+    "town_name_kana": "オトエチョウ（オトエ）",
+    "prefecture_name": "北海道",
+    "city_name": "深川市",
+    "town_name": "音江町（音江）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

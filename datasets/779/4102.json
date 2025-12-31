@@ -1,0 +1,17 @@
+{
+  "local_government_code": "36468",
+  "old_postal_code": "77941",
+  "postal_code": "7794102",
+  "prefecture_name_kana": "トクシマケン",
+  "city_name_kana": "ミマグンツルギチョウ",
+  "town_name_kana": "サダミツ（ダイボウ、ツジ、ニシヤマ、ノグチ、ヒライシ、ベッショ、マエダ）",
+  "prefecture_name": "徳島県",
+  "city_name": "美馬郡つるぎ町",
+  "town_name": "貞光（大坊、辻、西山、野口、平石、別所、前田）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

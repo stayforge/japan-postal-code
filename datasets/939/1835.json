@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "16210",
+    "old_postal_code": "93918",
+    "postal_code": "9391835",
+    "prefecture_name_kana": "トヤマケン",
+    "city_name_kana": "ナントシ",
+    "town_name_kana": "キョウヅカ",
+    "prefecture_name": "富山県",
+    "city_name": "南砺市",
+    "town_name": "京塚",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "16210",
+    "old_postal_code": "93918",
+    "postal_code": "9391835",
+    "prefecture_name_kana": "トヤマケン",
+    "city_name_kana": "ナントシ",
+    "town_name_kana": "タテノハラヒガシ",
+    "prefecture_name": "富山県",
+    "city_name": "南砺市",
+    "town_name": "立野原東",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "16210",
+    "old_postal_code": "93918",
+    "postal_code": "9391835",
+    "prefecture_name_kana": "トヤマケン",
+    "city_name_kana": "ナントシ",
+    "town_name_kana": "ミナミハラ",
+    "prefecture_name": "富山県",
+    "city_name": "南砺市",
+    "town_name": "南原",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "local_government_code": "36207",
+  "old_postal_code": "77121",
+  "postal_code": "7712104",
+  "prefecture_name_kana": "トクシマケン",
+  "city_name_kana": "ミマシ",
+  "town_name_kana": "ミマチョウ（ウガイグチ、オカ、オバセ、オバセバタ、カサボトケ、カワベリ、コウジン、スケマツ、タカバタケ、タツカク、タニガシラ、タマフリマエ、チゲジ、テンジンヒガシ、トドロキ、ナカグロ、ナカス、ナカミチキタ、ナカミチミナミ、ノツゴ、ノリコヘ、ハシノモト、ヒガシキシノシタ、ヒガシダン、ヒガシムネシゲ、ボウソウ、マルヤマ、ミナミハラ、ミョウジンバラ、ムネシゲ、ヤクシ）",
+  "prefecture_name": "徳島県",
+  "city_name": "美馬市",
+  "town_name": "美馬町（鵜飼口、岡、小長谷、小長谷端、笠仏、川縁、荒神、助松、高畑、辰角、谷頭、玉振前、チゲジ、天神東、轟、中黒、中須、中道北、中道南、ノツゴ、ノリコヘ、橋本、東岸ノ下、東段、東宗重、坊僧、丸山、南原、明神原、宗重、薬師）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

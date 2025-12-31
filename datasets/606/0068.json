@@ -1,0 +1,17 @@
+{
+  "local_government_code": "26103",
+  "old_postal_code": "606",
+  "postal_code": "6060068",
+  "prefecture_name_kana": "キョウトフ",
+  "city_name_kana": "キョウトシサキョウク",
+  "town_name_kana": "ヤセノセチョウ（２７７ノ２、２７９ノ１、３−５、２８１ノ２−９、１１−１８、２０−２２、２４−２６、３２、２８７、３００バンチ）",
+  "prefecture_name": "京都府",
+  "city_name": "京都市左京区",
+  "town_name": "八瀬野瀬町（２７７の２、２７９の１、３〜５、２８１の２〜９、１１〜１８、２０〜２２、２４〜２６、３２、２８７、３００番地）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

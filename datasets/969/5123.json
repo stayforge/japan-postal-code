@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "07202",
+    "old_postal_code": "96951",
+    "postal_code": "9695123",
+    "prefecture_name_kana": "フクシマケン",
+    "city_name_kana": "アイヅワカマツシ",
+    "town_name_kana": "オオトマチカミミヨリオオマメタ",
+    "prefecture_name": "福島県",
+    "city_name": "会津若松市",
+    "town_name": "大戸町上三寄大豆田",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "07202",
+    "old_postal_code": "96951",
+    "postal_code": "9695123",
+    "prefecture_name_kana": "フクシマケン",
+    "city_name_kana": "アイヅワカマツシ",
+    "town_name_kana": "オオトマチカミミヨリヘイ",
+    "prefecture_name": "福島県",
+    "city_name": "会津若松市",
+    "town_name": "大戸町上三寄丙",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

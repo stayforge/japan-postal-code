@@ -1,0 +1,17 @@
+{
+  "local_government_code": "01561",
+  "old_postal_code": "09816",
+  "postal_code": "0981623",
+  "prefecture_name_kana": "ホッカイドウ",
+  "city_name_kana": "モンベツグンオコッペチョウ",
+  "town_name_kana": "オコッペ（ミヤシタチョウ）",
+  "prefecture_name": "北海道",
+  "city_name": "紋別郡興部町",
+  "town_name": "興部（宮下町）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

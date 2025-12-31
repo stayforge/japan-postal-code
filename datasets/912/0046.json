@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "18205",
+    "old_postal_code": "912",
+    "postal_code": "9120046",
+    "prefecture_name_kana": "フクイケン",
+    "city_name_kana": "オオノシ",
+    "town_name_kana": "シンメイ",
+    "prefecture_name": "福井県",
+    "city_name": "大野市",
+    "town_name": "神明",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "18205",
+    "old_postal_code": "912",
+    "postal_code": "9120046",
+    "prefecture_name_kana": "フクイケン",
+    "city_name_kana": "オオノシ",
+    "town_name_kana": "シンメイチョウ",
+    "prefecture_name": "福井県",
+    "city_name": "大野市",
+    "town_name": "神明町",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "local_government_code": "01213",
+  "old_postal_code": "05912",
+  "postal_code": "0591276",
+  "prefecture_name_kana": "ホッカイドウ",
+  "city_name_kana": "トマコマイシ",
+  "town_name_kana": "ハマナスチョウ（２チョウメ）",
+  "prefecture_name": "北海道",
+  "city_name": "苫小牧市",
+  "town_name": "はまなす町（２丁目）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "1",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

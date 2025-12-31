@@ -1,0 +1,17 @@
+{
+  "local_government_code": "01459",
+  "old_postal_code": "07102",
+  "postal_code": "0710225",
+  "prefecture_name_kana": "ホッカイドウ",
+  "city_name_kana": "カミカワグンビエイチョウ",
+  "town_name_kana": "メイジ（ダイサン）",
+  "prefecture_name": "北海道",
+  "city_name": "上川郡美瑛町",
+  "town_name": "明治（大三）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

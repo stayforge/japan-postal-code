@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "16201",
+    "old_postal_code": "93926",
+    "postal_code": "9392625",
+    "prefecture_name_kana": "トヤマケン",
+    "city_name_kana": "トヤマシ",
+    "town_name_kana": "フチュウマチカミゼ",
+    "prefecture_name": "富山県",
+    "city_name": "富山市",
+    "town_name": "婦中町上瀬",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "16201",
+    "old_postal_code": "93926",
+    "postal_code": "9392625",
+    "prefecture_name_kana": "トヤマケン",
+    "city_name_kana": "トヤマシ",
+    "town_name_kana": "フチュウマチサンノセ",
+    "prefecture_name": "富山県",
+    "city_name": "富山市",
+    "town_name": "婦中町三瀬",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "16201",
+    "old_postal_code": "93926",
+    "postal_code": "9392625",
+    "prefecture_name_kana": "トヤマケン",
+    "city_name_kana": "トヤマシ",
+    "town_name_kana": "フチュウマチタカヤマ",
+    "prefecture_name": "富山県",
+    "city_name": "富山市",
+    "town_name": "婦中町高山",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

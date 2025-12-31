@@ -1,0 +1,17 @@
+{
+  "local_government_code": "23217",
+  "old_postal_code": "483",
+  "postal_code": "4838258",
+  "prefecture_name_kana": "アイチケン",
+  "city_name_kana": "コウナンシ",
+  "town_name_kana": "カミナラチョウ（ミズホ、カンノンジ、クボ、ゴウ）",
+  "prefecture_name": "愛知県",
+  "city_name": "江南市",
+  "town_name": "上奈良町（瑞穂、観音寺、久保、郷）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "1",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

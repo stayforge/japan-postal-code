@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "43206",
+    "old_postal_code": "86902",
+    "postal_code": "8690235",
+    "prefecture_name_kana": "クマモトケン",
+    "city_name_kana": "タマナシ",
+    "town_name_kana": "タイメイマチコガ（ヒバリガオカ）",
+    "prefecture_name": "熊本県",
+    "city_name": "玉名市",
+    "town_name": "岱明町古閑（雲雀丘）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "43206",
+    "old_postal_code": "86902",
+    "postal_code": "8690235",
+    "prefecture_name_kana": "クマモトケン",
+    "city_name_kana": "タマナシ",
+    "town_name_kana": "タイメイマチサイショウジ（ヒバリガオカ）",
+    "prefecture_name": "熊本県",
+    "city_name": "玉名市",
+    "town_name": "岱明町西照寺（雲雀丘）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "43206",
+    "old_postal_code": "86902",
+    "postal_code": "8690235",
+    "prefecture_name_kana": "クマモトケン",
+    "city_name_kana": "タマナシ",
+    "town_name_kana": "タイメイマチジョウ（ヒバリガオカ）",
+    "prefecture_name": "熊本県",
+    "city_name": "玉名市",
+    "town_name": "岱明町上（雲雀丘）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

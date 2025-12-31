@@ -1,0 +1,17 @@
+{
+  "local_government_code": "45442",
+  "old_postal_code": "88203",
+  "postal_code": "8820301",
+  "prefecture_name_kana": "ミヤザキケン",
+  "city_name_kana": "ニシウスキグンヒノカゲチョウ",
+  "town_name_kana": "ナナオリ（アゲ、カサド、カバギ、シシガワ、シンマチ、タキノウチ、ナカガワ、ニシノウチ、フネノオ、ヤト、ヤナザキ）",
+  "prefecture_name": "宮崎県",
+  "city_name": "西臼杵郡日之影町",
+  "town_name": "七折（阿下、笠戸、椛木、鹿川、新町、滝ノ内、中川、西ノ内、舟ノ尾、八戸、簗崎）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

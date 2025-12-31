@@ -1,0 +1,17 @@
+{
+  "local_government_code": "37204",
+  "old_postal_code": "765",
+  "postal_code": "7650072",
+  "prefecture_name_kana": "カガワケン",
+  "city_name_kana": "ゼンツウジシ",
+  "town_name_kana": "ナカムラチョウ（チョウメ）",
+  "prefecture_name": "香川県",
+  "city_name": "善通寺市",
+  "town_name": "中村町（丁目）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "1",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

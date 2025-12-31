@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "07447",
+    "old_postal_code": "96962",
+    "postal_code": "9696203",
+    "prefecture_name_kana": "フクシマケン",
+    "city_name_kana": "オオヌマグンアイヅミサトマチ",
+    "town_name_kana": "タカダマエカワハラ",
+    "prefecture_name": "福島県",
+    "city_name": "大沼郡会津美里町",
+    "town_name": "高田前川原",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "07447",
+    "old_postal_code": "96962",
+    "postal_code": "9696203",
+    "prefecture_name_kana": "フクシマケン",
+    "city_name_kana": "オオヌマグンアイヅミサトマチ",
+    "town_name_kana": "ミト",
+    "prefecture_name": "福島県",
+    "city_name": "大沼郡会津美里町",
+    "town_name": "水戸",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

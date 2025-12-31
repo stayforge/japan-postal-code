@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "17202",
+    "old_postal_code": "926",
+    "postal_code": "9260006",
+    "prefecture_name_kana": "イシカワケン",
+    "city_name_kana": "ナナオシ",
+    "town_name_kana": "オオタシンマチ",
+    "prefecture_name": "石川県",
+    "city_name": "七尾市",
+    "town_name": "大田新町",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "17202",
+    "old_postal_code": "926",
+    "postal_code": "9260006",
+    "prefecture_name_kana": "イシカワケン",
+    "city_name_kana": "ナナオシ",
+    "town_name_kana": "オオタマチ",
+    "prefecture_name": "石川県",
+    "city_name": "七尾市",
+    "town_name": "大田町",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

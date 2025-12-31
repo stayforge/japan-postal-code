@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "02307",
+    "old_postal_code": "03017",
+    "postal_code": "0301711",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "ヒガシツガルグンソトガハママチ",
+    "town_name_kana": "ミンマヤゲンベイマ",
+    "prefecture_name": "青森県",
+    "city_name": "東津軽郡外ヶ浜町",
+    "town_name": "三厩源兵衛間",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02307",
+    "old_postal_code": "03017",
+    "postal_code": "0301711",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "ヒガシツガルグンソトガハママチ",
+    "town_name_kana": "ミンマヤタツハマ",
+    "prefecture_name": "青森県",
+    "city_name": "東津軽郡外ヶ浜町",
+    "town_name": "三厩龍浜",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "local_government_code": "01407",
+  "old_postal_code": "04823",
+  "postal_code": "0482331",
+  "prefecture_name_kana": "ホッカイドウ",
+  "city_name_kana": "ヨイチグンニキチョウ",
+  "town_name_kana": "オオエ（２チョウメ６５１、６６２、６６８バンチ、３チョウメ１０３、１１８、２１０、２５４、２６７、３７２、４４４、４６９バンチ）",
+  "prefecture_name": "北海道",
+  "city_name": "余市郡仁木町",
+  "town_name": "大江（２丁目６５１、６６２、６６８番地、３丁目１０３、１１８、２１０、２５４、２６７、３７２、４４４、４６９番地）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "0",
+  "has_chome": "1",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

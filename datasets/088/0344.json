@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "01668",
+    "old_postal_code": "08803",
+    "postal_code": "0880344",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "シラヌカグンシラヌカチョウ",
+    "town_name_kana": "ヒダリマタ",
+    "prefecture_name": "北海道",
+    "city_name": "白糠郡白糠町",
+    "town_name": "左股",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "01668",
+    "old_postal_code": "08803",
+    "postal_code": "0880344",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "シラヌカグンシラヌカチョウ",
+    "town_name_kana": "フタマタ",
+    "prefecture_name": "北海道",
+    "city_name": "白糠郡白糠町",
+    "town_name": "二股",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "01668",
+    "old_postal_code": "08803",
+    "postal_code": "0880344",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "シラヌカグンシラヌカチョウ",
+    "town_name_kana": "ミギマタ",
+    "prefecture_name": "北海道",
+    "city_name": "白糠郡白糠町",
+    "town_name": "右股",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

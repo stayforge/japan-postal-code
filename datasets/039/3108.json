@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "02401",
+    "old_postal_code": "03931",
+    "postal_code": "0393108",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "カミキタグンノヘジマチ",
+    "town_name_kana": "アリト",
+    "prefecture_name": "青森県",
+    "city_name": "上北郡野辺地町",
+    "town_name": "有戸",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02401",
+    "old_postal_code": "03931",
+    "postal_code": "0393108",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "カミキタグンノヘジマチ",
+    "town_name_kana": "シタミチ",
+    "prefecture_name": "青森県",
+    "city_name": "上北郡野辺地町",
+    "town_name": "下道",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02401",
+    "old_postal_code": "03931",
+    "postal_code": "0393108",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "カミキタグンノヘジマチ",
+    "town_name_kana": "ナカタ",
+    "prefecture_name": "青森県",
+    "city_name": "上北郡野辺地町",
+    "town_name": "中田",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "01462",
+    "old_postal_code": "07924",
+    "postal_code": "0792404",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "ソラチグンミナミフラノチョウ",
+    "town_name_kana": "イクトラ（アサヒマチ）",
+    "prefecture_name": "北海道",
+    "city_name": "空知郡南富良野町",
+    "town_name": "幾寅（朝日町）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "01462",
+    "old_postal_code": "07924",
+    "postal_code": "0792404",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "ソラチグンミナミフラノチョウ",
+    "town_name_kana": "イクトラ（センボクチョウ）",
+    "prefecture_name": "北海道",
+    "city_name": "空知郡南富良野町",
+    "town_name": "幾寅（千木町）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "01462",
+    "old_postal_code": "07924",
+    "postal_code": "0792404",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "ソラチグンミナミフラノチョウ",
+    "town_name_kana": "イクトラ（ヒガシマチ）",
+    "prefecture_name": "北海道",
+    "city_name": "空知郡南富良野町",
+    "town_name": "幾寅（東町）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

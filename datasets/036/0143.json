@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "02210",
+    "old_postal_code": "03601",
+    "postal_code": "0360143",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "ヒラカワシ",
+    "town_name_kana": "フキアゲタカダ",
+    "prefecture_name": "青森県",
+    "city_name": "平川市",
+    "town_name": "吹上高田",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02210",
+    "old_postal_code": "03601",
+    "postal_code": "0360143",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "ヒラカワシ",
+    "town_name_kana": "フキアゲヒラオカ",
+    "prefecture_name": "青森県",
+    "city_name": "平川市",
+    "town_name": "吹上平岡",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "02210",
+    "old_postal_code": "03601",
+    "postal_code": "0360143",
+    "prefecture_name_kana": "アオモリケン",
+    "city_name_kana": "ヒラカワシ",
+    "town_name_kana": "フキアゲヤスタ",
+    "prefecture_name": "青森県",
+    "city_name": "平川市",
+    "town_name": "吹上安田",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "1",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

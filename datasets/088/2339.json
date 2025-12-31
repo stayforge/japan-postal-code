@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "01664",
+    "old_postal_code": "08823",
+    "postal_code": "0882339",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "カワカミグンシベチャチョウ",
+    "town_name_kana": "カミタワ",
+    "prefecture_name": "北海道",
+    "city_name": "川上郡標茶町",
+    "town_name": "上多和",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "01664",
+    "old_postal_code": "08823",
+    "postal_code": "0882339",
+    "prefecture_name_kana": "ホッカイドウ",
+    "city_name_kana": "カワカミグンシベチャチョウ",
+    "town_name_kana": "タワ（ソノタ）",
+    "prefecture_name": "北海道",
+    "city_name": "川上郡標茶町",
+    "town_name": "多和（その他）",
+    "multiple_postal_codes_per_town": "1",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

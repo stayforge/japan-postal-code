@@ -1,0 +1,17 @@
+{
+  "local_government_code": "02405",
+  "old_postal_code": "033",
+  "postal_code": "0330071",
+  "prefecture_name_kana": "アオモリケン",
+  "city_name_kana": "カミキタグンロクノヘマチ",
+  "town_name_kana": "イヌオトセ（ウチカナヤ、ウチヤマ、オカヌマ、カナザワ、カナヤ、カミサビシロ、キコシ、ゴンゲンサワ、シキ、シチヒャク、シモクボ＜１７４ヲノゾク＞、シモサビシロ、タカモリ、ヅメキ、ツボケザワ＜２５、６３７、６４１、６４３、６４７ヲノゾク＞、ナカヤシキ、ヌマクボ、ネコハシ、ホリキリサワ、ミナミタイ、ヤナギサワ、オオマガリ）",
+  "prefecture_name": "青森県",
+  "city_name": "上北郡六戸町",
+  "town_name": "犬落瀬（内金矢、内山、岡沼、金沢、金矢、上淋代、木越、権現沢、四木、七百、下久保「１７４を除く」、下淋代、高森、通目木、坪毛沢「２５、６３７、６４１、６４３、６４７を除く」、中屋敷、沼久保、根古橋、堀切沢、南平、柳沢、大曲）",
+  "multiple_postal_codes_per_town": "1",
+  "koaza_numbering": "1",
+  "has_chome": "0",
+  "multiple_towns_per_postal_code": "0",
+  "update_status": "0",
+  "change_reason": "0"
+}

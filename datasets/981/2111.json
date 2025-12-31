@@ -1,0 +1,53 @@
+[
+  {
+    "local_government_code": "04341",
+    "old_postal_code": "98121",
+    "postal_code": "9812111",
+    "prefecture_name_kana": "ミヤギケン",
+    "city_name_kana": "イググンマルモリマチ",
+    "town_name_kana": "シンメイ",
+    "prefecture_name": "宮城県",
+    "city_name": "伊具郡丸森町",
+    "town_name": "神明",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "04341",
+    "old_postal_code": "98121",
+    "postal_code": "9812111",
+    "prefecture_name_kana": "ミヤギケン",
+    "city_name_kana": "イググンマルモリマチ",
+    "town_name_kana": "シンメイヒガシ",
+    "prefecture_name": "宮城県",
+    "city_name": "伊具郡丸森町",
+    "town_name": "神明東",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "04341",
+    "old_postal_code": "98121",
+    "postal_code": "9812111",
+    "prefecture_name_kana": "ミヤギケン",
+    "city_name_kana": "イググンマルモリマチ",
+    "town_name_kana": "シンメイミナミ",
+    "prefecture_name": "宮城県",
+    "city_name": "伊具郡丸森町",
+    "town_name": "神明南",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "local_government_code": "46215",
+    "old_postal_code": "895",
+    "postal_code": "8950072",
+    "prefecture_name_kana": "カゴシマケン",
+    "city_name_kana": "サツマセンダイシ",
+    "town_name_kana": "チュウゴウ",
+    "prefecture_name": "鹿児島県",
+    "city_name": "薩摩川内市",
+    "town_name": "中郷",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "1",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  },
+  {
+    "local_government_code": "46215",
+    "old_postal_code": "895",
+    "postal_code": "8950072",
+    "prefecture_name_kana": "カゴシマケン",
+    "city_name_kana": "サツマセンダイシ",
+    "town_name_kana": "チュウゴウチョウ",
+    "prefecture_name": "鹿児島県",
+    "city_name": "薩摩川内市",
+    "town_name": "中郷町",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "0",
+    "multiple_towns_per_postal_code": "1",
+    "update_status": "0",
+    "change_reason": "0"
+  }
+]
