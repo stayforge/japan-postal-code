@@ -36,6 +36,15 @@ jobs:
           echo "Tag $TAG_NAME does not exist"
         fi
 
+    - name: Verify datasets directory exists
+      run: |
+        if [ ! -d "datasets" ]; then
+          echo "Error: datasets directory not found"
+          exit 1
+        fi
+        echo "Files in datasets directory:"
+        find datasets -type f || echo "No files found"
+
     - name: Create or update release
       uses: softprops/action-gh-release@v1
       with:
@@ -44,7 +53,11 @@ jobs:
         body: |
           Automated release for ${{ steps.date.outputs.date }}
           
-          This release contains updated Japan postal code data in JSON, YAML, CSV, and XML formats.
+          This release contains updated Japan postal code data in multiple formats.
+          
+          All files from the `datasets/` directory are included in the release assets.
+        files: |
+          datasets/**
         draft: false
         prerelease: false
         overwrite: true

@@ -39,7 +39,7 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git add data.json data.yaml data.csv data.xml
+        git add datasets/
         if ! git diff --staged --quiet; then
           git commit -m "chore: update postal code data"
           git push

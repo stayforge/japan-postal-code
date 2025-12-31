@@ -9,6 +9,7 @@ import csv
 import json
 import logging
 import os
+import sqlite3
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -17,6 +18,35 @@ from pathlib import Path
 from typing import List
 
 import yaml
+
+try:
+    import msgpack
+except ImportError:
+    msgpack = None
+
+try:
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+    import pyarrow.feather as feather
+except ImportError:
+    pa = None
+    pq = None
+    feather = None
+
+try:
+    if sys.version_info >= (3, 11):
+        import tomllib
+    else:
+        import tomli as tomllib
+    import tomli_w
+except ImportError:
+    tomllib = None
+    tomli_w = None
+
+try:
+    import bson
+except ImportError:
+    bson = None
 
 from models import JapanPostalCode
 
@@ -195,6 +225,178 @@ async def save_xml(data: List[JapanPostalCode], output_path: Path) -> None:
         sys.exit(1)
 
 
+async def save_parquet(data: List[JapanPostalCode], output_path: Path) -> None:
+    """Save data as Parquet file using pyarrow."""
+    print(f"Saving Parquet to {output_path}...")
+    if pq is None:
+        print("Error: pyarrow is not installed. Install it with: pip install pyarrow")
+        return
+    try:
+        # Convert pydantic models to list of dictionaries
+        data_dict = [item.model_dump() for item in data]
+        
+        def _save_parquet():
+            # Convert to Arrow table
+            table = pa.Table.from_pylist(data_dict)
+            # Write to Parquet file
+            pq.write_table(table, output_path, compression='snappy')
+        
+        await asyncio.to_thread(_save_parquet)
+        print(f"Parquet saved successfully")
+    except Exception as e:
+        print(f"Error saving Parquet: {e}")
+        sys.exit(1)
+
+
+async def save_msgpack(data: List[JapanPostalCode], output_path: Path) -> None:
+    """Save data as MessagePack file."""
+    print(f"Saving MessagePack to {output_path}...")
+    if msgpack is None:
+        print("Error: msgpack is not installed. Install it with: pip install msgpack")
+        return
+    try:
+        # Convert pydantic models to list of dictionaries
+        data_dict = [item.model_dump() for item in data]
+        
+        def _save_msgpack():
+            with open(output_path, 'wb') as f:
+                msgpack.pack(data_dict, f, use_bin_type=True)
+        
+        await asyncio.to_thread(_save_msgpack)
+        print(f"MessagePack saved successfully")
+    except Exception as e:
+        print(f"Error saving MessagePack: {e}")
+        sys.exit(1)
+
+
+async def save_ndjson(data: List[JapanPostalCode], output_path: Path) -> None:
+    """Save data as NDJSON (Newline-Delimited JSON) file."""
+    print(f"Saving NDJSON to {output_path}...")
+    try:
+        def _save_ndjson():
+            with open(output_path, 'w', encoding='utf-8') as f:
+                for item in data:
+                    json_line = json.dumps(item.model_dump(), ensure_ascii=False)
+                    f.write(json_line + '\n')
+        
+        await asyncio.to_thread(_save_ndjson)
+        print(f"NDJSON saved successfully")
+    except Exception as e:
+        print(f"Error saving NDJSON: {e}")
+        sys.exit(1)
+
+
+async def save_toml(data: List[JapanPostalCode], output_path: Path) -> None:
+    """Save data as TOML file."""
+    print(f"Saving TOML to {output_path}...")
+    if tomli_w is None:
+        print("Error: tomli-w is not installed. Install it with: pip install tomli-w")
+        return
+    try:
+        # Convert pydantic models to list of dictionaries
+        data_dict = [item.model_dump() for item in data]
+        # TOML format: wrap in a table with array of tables
+        toml_data = {"postal_codes": data_dict}
+        
+        def _save_toml():
+            with open(output_path, 'wb') as f:
+                tomli_w.dump(toml_data, f)
+        
+        await asyncio.to_thread(_save_toml)
+        print(f"TOML saved successfully")
+    except Exception as e:
+        print(f"Error saving TOML: {e}")
+        sys.exit(1)
+
+
+async def save_feather(data: List[JapanPostalCode], output_path: Path) -> None:
+    """Save data as Feather/Arrow file."""
+    print(f"Saving Feather to {output_path}...")
+    if feather is None or pa is None:
+        print("Error: pyarrow is not installed. Install it with: pip install pyarrow")
+        return
+    try:
+        # Convert pydantic models to list of dictionaries
+        data_dict = [item.model_dump() for item in data]
+        
+        def _save_feather():
+            # Convert to Arrow table
+            table = pa.Table.from_pylist(data_dict)
+            # Write to Feather file
+            feather.write_feather(table, output_path)
+        
+        await asyncio.to_thread(_save_feather)
+        print(f"Feather saved successfully")
+    except Exception as e:
+        print(f"Error saving Feather: {e}")
+        sys.exit(1)
+
+
+async def save_bson(data: List[JapanPostalCode], output_path: Path) -> None:
+    """Save data as BSON file."""
+    print(f"Saving BSON to {output_path}...")
+    if bson is None:
+        print("Error: bson is not installed. Install it with: pip install pymongo")
+        return
+    try:
+        # Convert pydantic models to list of dictionaries
+        data_dict = [item.model_dump() for item in data]
+        
+        def _save_bson():
+            with open(output_path, 'wb') as f:
+                bson_data = bson.encode({"postal_codes": data_dict})
+                f.write(bson_data)
+        
+        await asyncio.to_thread(_save_bson)
+        print(f"BSON saved successfully")
+    except Exception as e:
+        print(f"Error saving BSON: {e}")
+        sys.exit(1)
+
+
+async def save_sqlite(data: List[JapanPostalCode], output_path: Path) -> None:
+    """Save data as SQLite database."""
+    print(f"Saving SQLite to {output_path}...")
+    try:
+        def _save_sqlite():
+            # Remove existing database if it exists
+            if output_path.exists():
+                output_path.unlink()
+            
+            # Connect to SQLite database
+            conn = sqlite3.connect(output_path)
+            cursor = conn.cursor()
+            
+            # Get field names from pydantic model
+            fieldnames = list(JapanPostalCode.model_fields.keys())
+            
+            # Create table
+            columns = ', '.join([f"{field} TEXT" for field in fieldnames])
+            cursor.execute(f"CREATE TABLE postal_codes ({columns})")
+            
+            # Insert data
+            data_dict = [item.model_dump() for item in data]
+            placeholders = ', '.join(['?' for _ in fieldnames])
+            insert_query = f"INSERT INTO postal_codes ({', '.join(fieldnames)}) VALUES ({placeholders})"
+            
+            for record in data_dict:
+                values = [str(record.get(field, '')) for field in fieldnames]
+                cursor.execute(insert_query, values)
+            
+            # Create index on postal_code for faster lookups
+            cursor.execute("CREATE INDEX idx_postal_code ON postal_codes(postal_code)")
+            
+            # Commit and close
+            conn.commit()
+            conn.close()
+        
+        await asyncio.to_thread(_save_sqlite)
+        print(f"SQLite saved successfully")
+    except Exception as e:
+        print(f"Error saving SQLite: {e}")
+        sys.exit(1)
+
+
 async def main():
     """Main function to download, extract, and convert postal code data."""
     # Change to project root
@@ -224,10 +426,17 @@ async def main():
 
     # Convert and save to different formats
     output_files = {
-        'json': datasets_dir / "data.json",
-        'yaml': datasets_dir / "data.yaml",
-        'csv': datasets_dir / "data.csv",
-        'xml': datasets_dir / "data.xml"
+        'json': datasets_dir / "all_data.json",
+        'yaml': datasets_dir / "all_data.yaml",
+        'csv': datasets_dir / "all_data.csv",
+        'xml': datasets_dir / "all_data.xml",
+        'parquet': datasets_dir / "all_data.parquet",
+        'msgpack': datasets_dir / "all_data.msgpack",
+        'ndjson': datasets_dir / "all_data.ndjson",
+        'toml': datasets_dir / "all_data.toml",
+        'feather': datasets_dir / "all_data.feather",
+        'bson': datasets_dir / "all_data.bson",
+        'sqlite': datasets_dir / "all_data.db"
     }
 
     # Save to all formats concurrently
@@ -235,7 +444,14 @@ async def main():
         save_json(data, output_files['json']),
         save_yaml(data, output_files['yaml']),
         save_csv(data, output_files['csv']),
-        save_xml(data, output_files['xml'])
+        save_xml(data, output_files['xml']),
+        save_parquet(data, output_files['parquet']),
+        save_msgpack(data, output_files['msgpack']),
+        save_ndjson(data, output_files['ndjson']),
+        save_toml(data, output_files['toml']),
+        save_feather(data, output_files['feather']),
+        save_bson(data, output_files['bson']),
+        save_sqlite(data, output_files['sqlite'])
     )
 
     # Clean up temporary files (optional - comment out if you want to keep them)
