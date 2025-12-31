@@ -1,153 +1,83 @@
-"""Progress bar manager for stable multi-line progress display."""
+"""Progress manager for traditional log output."""
 
-import os
-import sys
-from typing import Optional
-
-try:
-    from rich.progress import (
-        Progress,
-        SpinnerColumn,
-        BarColumn,
-        TextColumn,
-        TimeRemainingColumn,
-        FileSizeColumn,
-    )
-    from rich.console import Console
-    from typing import TYPE_CHECKING
-    if TYPE_CHECKING:
-        from rich.progress import TaskID
-    else:
-        TaskID = int  # Runtime type hint
-    RICH_AVAILABLE = True
-except ImportError:
-    RICH_AVAILABLE = False
-    TaskID = int
-
-try:
-    from tqdm import tqdm
-    TQDM_AVAILABLE = True
-except ImportError:
-    TQDM_AVAILABLE = False
-
-
-def _is_ci_environment() -> bool:
-    """Detect if running in CI environment (GitHub Actions, GitLab CI, etc.)."""
-    ci_indicators = [
-        'CI',  # Generic CI flag
-        'GITHUB_ACTIONS',  # GitHub Actions
-        'GITLAB_CI',  # GitLab CI
-        'JENKINS_URL',  # Jenkins
-        'TRAVIS',  # Travis CI
-        'CIRCLECI',  # CircleCI
-    ]
-    return any(os.environ.get(key) for key in ci_indicators)
-
-
-def _should_use_simple_output() -> bool:
-    """Determine if we should use simple output instead of rich progress bars."""
-    # Use simple output in CI environments or if not a terminal
-    if _is_ci_environment():
-        return True
-    
-    # Check if stdout is a terminal
-    if not sys.stdout.isatty():
-        return True
-    
-    return False
+import time
+from typing import Optional, Dict
 
 
 class ProgressManager:
-    """Manages multiple progress bars in a stable multi-line display."""
+    """Manages progress tracking with traditional log output."""
     
     def __init__(self):
-        self.rich_progress: Optional[Progress] = None
-        self.console: Optional[Console] = None
-        self.tasks: dict[str, TaskID] = {}
-        self.simple_mode: bool = False
-        self.task_status: dict[str, dict] = {}  # For simple mode: {name: {completed: int, total: int}}
-        
-        use_simple = _should_use_simple_output()
-        
-        if RICH_AVAILABLE and not use_simple:
-            # Use rich in normal terminals
-            self.console = Console(force_terminal=False)  # Let rich auto-detect
-            if self.console.is_terminal:
-                self.rich_progress = Progress(
-                    SpinnerColumn(),
-                    TextColumn("[progress.description]{task.description}"),
-                    BarColumn(),
-                    TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
-                    TextColumn("({task.completed}/{task.total})"),
-                    TimeRemainingColumn(),
-                    console=self.console,
-                    transient=False,  # Keep progress bars visible
-                )
-                self.rich_progress.start()
-            else:
-                # Terminal doesn't support rich, use simple mode
-                self.simple_mode = True
-        else:
-            # Use simple mode in CI or if rich not available
-            self.simple_mode = True
+        self.tasks: Dict[str, Dict] = {}  # {name: {completed: int, total: int, last_print: float, start_time: float}}
     
-    def add_task(self, name: str, total: int, show_bytes: bool = False) -> Optional[TaskID]:
+    def add_task(self, name: str, total: int, show_bytes: bool = False) -> Optional[int]:
         """Add a new progress task.
         
         Args:
             name: Task name
             total: Total number of items/bytes
-            show_bytes: If True, show file size column (for downloads)
+            show_bytes: If True, show file size column (for downloads) - not used in simple mode
         """
-        if self.simple_mode:
-            # Simple mode: just track status
-            self.task_status[name] = {'completed': 0, 'total': total}
-            if _is_ci_environment():
-                # In CI, print initial status
-                print(f"[{name}] Starting... (0/{total})")
-            return None
-        
-        if self.rich_progress:
-            task_id = self.rich_progress.add_task(
-                f"[cyan]{name}[/cyan]",
-                total=total
-            )
-            self.tasks[name] = task_id
-            return task_id
+        self.tasks[name] = {
+            'completed': 0,
+            'total': total,
+            'last_print': 0.0,
+            'start_time': time.time(),
+            'last_milestone': -1
+        }
+        print(f"[{name}] Starting... (0/{total})")
         return None
     
     def update(self, name: str, advance: int = 1):
-        """Update progress for a task."""
-        if self.simple_mode:
-            if name in self.task_status:
-                self.task_status[name]['completed'] += advance
-                completed = self.task_status[name]['completed']
-                total = self.task_status[name]['total']
-                
-                # In CI, print progress every 10% or when complete
-                if _is_ci_environment():
-                    percentage = (completed / total * 100) if total > 0 else 0
-                    # Print at milestones (0%, 10%, 20%, ..., 100%)
-                    if completed == 0 or completed == total or (completed % max(1, total // 10) == 0):
-                        print(f"[{name}] {percentage:.0f}% ({completed}/{total})")
-                return
-        
-        if self.rich_progress and name in self.tasks:
-            self.rich_progress.update(self.tasks[name], advance=advance)
-    
-    def close(self):
-        """Close all progress bars."""
-        if self.simple_mode:
-            # In CI, print completion status
-            if _is_ci_environment():
-                for name, status in self.task_status.items():
-                    if status['completed'] == status['total']:
-                        print(f"[{name}] Completed ({status['completed']}/{status['total']})")
+        """Update progress for a task with throttled output."""
+        if name not in self.tasks:
             return
         
-        if self.rich_progress:
-            self.rich_progress.stop()
-            self.rich_progress = None
+        task = self.tasks[name]
+        task['completed'] += advance
+        completed = task['completed']
+        total = task['total']
+        
+        # Calculate percentage
+        percentage = int((completed / total * 100)) if total > 0 else 0
+        
+        # Print at milestones: 10%, 20%, ..., 90%, 100%
+        # Or every 5 seconds, whichever comes first
+        current_time = time.time()
+        should_print = False
+        
+        # Print at percentage milestones (every 10%, but skip 0%)
+        milestone_percentage = (percentage // 10) * 10
+        if milestone_percentage > 0 and milestone_percentage != task.get('last_milestone', -1):
+            should_print = True
+            task['last_milestone'] = milestone_percentage
+        
+        # Or print every 5 seconds (but not at the very start)
+        elif completed > 0 and current_time - task['last_print'] >= 5.0:
+            should_print = True
+        
+        # Always print at completion
+        if completed >= total:
+            should_print = True
+        
+        if should_print:
+            elapsed = current_time - task['start_time']
+            if completed > 0 and elapsed > 0:
+                rate = completed / elapsed
+                remaining = (total - completed) / rate if rate > 0 else 0
+                print(f"[{name}] {percentage}% ({completed}/{total}) - {rate:.1f}/s - ETA: {remaining:.0f}s")
+            else:
+                print(f"[{name}] {percentage}% ({completed}/{total})")
+            task['last_print'] = current_time
+    
+    def close(self):
+        """Close all progress tracking."""
+        # Print final status for all tasks
+        for name, task in self.tasks.items():
+            if task['completed'] == task['total']:
+                elapsed = time.time() - task['start_time']
+                print(f"[{name}] Completed ({task['completed']}/{task['total']}) in {elapsed:.1f}s")
+        self.tasks.clear()
     
     def __enter__(self):
         return self
@@ -164,7 +94,6 @@ def get_progress_manager() -> Optional[ProgressManager]:
     """Get or create the global progress manager."""
     global _global_progress_manager
     if _global_progress_manager is None:
-        # Always create progress manager, even if rich is not available (will use simple mode)
         _global_progress_manager = ProgressManager()
     return _global_progress_manager
 

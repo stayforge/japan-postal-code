@@ -32,19 +32,24 @@ Data is grouped by the first 3 digits of postal codes and provided in a hierarch
 ```
 datasets/
 ├── 176.json          # 176で始まる全ての郵便番号の完全なレコードリスト
-├── 176.yaml          # All postal codes starting with 176
-├── 176.csv
+│                     # All postal codes starting with 176
 ├── 176/
 │   ├── 0005.json     # 郵便番号 1760005 の完全なレコード
-│   ├── 0005.yaml     # Complete record for postal code 1760005
-│   ├── 0005.csv
+│   │                 # Complete record for postal code 1760005
 │   ├── 0006.json     # 郵便番号 1760006 の完全なレコード
+│   │                 # Complete record for postal code 1760006
 │   └── ...
 ├── 177.json
 ├── 177/
 │   └── ...
 └── ...
 ```
+
+**注意 / Note:**
+- グループ化されたデータは **JSON 形式のみ** で提供されています
+- Grouped data is only available in **JSON format**
+- 全データセット（`all_data.*`）は全てのフォーマットで利用可能です
+- Full datasets (`all_data.*`) are available in all formats
 
 ### データ取得方法 / How to Retrieve Data
 
@@ -176,15 +181,21 @@ data = response.json()
 
 ### 対応フォーマット / Supported Formats
 
-全てのフォーマット（JSON, YAML, CSV, XML, Parquet, MessagePack, NDJSON, TOML, Feather, BSON）でグループ化されたデータが提供されています。
+**日本語:**
+グループ化されたデータは **JSON 形式のみ** で提供されています。これは、JSON が最も広くサポートされており、Web アプリケーションでの使用に最適なためです。
 
-All formats (JSON, YAML, CSV, XML, Parquet, MessagePack, NDJSON, TOML, Feather, BSON) are available in grouped structure.
+全データセット（`all_data.*`）は、JSON, YAML, CSV, XML, Parquet, MessagePack, NDJSON, TOML, Feather, BSON, SQLite の全てのフォーマットで利用可能です。
+
+**English:**
+Grouped data is only available in **JSON format**. This is because JSON has the widest support and is optimal for use in web applications.
+
+Full datasets (`all_data.*`) are available in all formats: JSON, YAML, CSV, XML, Parquet, MessagePack, NDJSON, TOML, Feather, BSON, SQLite.
 
 **例 / Examples:**
-- `https://stayforge.github.io/japan-postal-code/datasets/176.json`
-- `https://stayforge.github.io/japan-postal-code/datasets/176.yaml`
-- `https://stayforge.github.io/japan-postal-code/datasets/176/0005.json`
-- `https://stayforge.github.io/japan-postal-code/datasets/176/0005.csv`
+- `https://stayforge.github.io/japan-postal-code/datasets/176.json` ✅
+- `https://stayforge.github.io/japan-postal-code/datasets/176/0005.json` ✅
+- `https://stayforge.github.io/japan-postal-code/datasets/176.yaml` ❌ (グループ化データでは利用不可 / Not available in grouped data)
+- `https://stayforge.github.io/japan-postal-code/datasets/all_data.yaml` ✅ (全データセットでは利用可能 / Available in full dataset)
 
 ## 著作権 / Copyright
 

@@ -125,22 +125,23 @@ def read_csv_data(csv_path: Path) -> List[JapanPostalCode]:
         iterator = df.itertuples(index=False)
         for row in iterator:
             try:
+                # Strip all string fields to remove trailing/leading whitespace
                 postal_code = JapanPostalCode(
-                    local_government_code=row.local_government_code,
-                    old_postal_code=row.old_postal_code,
-                    postal_code=row.postal_code,
-                    prefecture_name_kana=row.prefecture_name_kana,
-                    city_name_kana=row.city_name_kana,
-                    town_name_kana=row.town_name_kana,
-                    prefecture_name=row.prefecture_name,
-                    city_name=row.city_name,
-                    town_name=row.town_name,
-                    multiple_postal_codes_per_town=row.multiple_postal_codes_per_town,
-                    koaza_numbering=row.koaza_numbering,
-                    has_chome=row.has_chome,
-                    multiple_towns_per_postal_code=row.multiple_towns_per_postal_code,
-                    update_status=row.update_status,
-                    change_reason=row.change_reason
+                    local_government_code=row.local_government_code.strip() if row.local_government_code else None,
+                    old_postal_code=row.old_postal_code.strip() if row.old_postal_code else None,
+                    postal_code=row.postal_code.strip() if row.postal_code else None,
+                    prefecture_name_kana=row.prefecture_name_kana.strip() if row.prefecture_name_kana else None,
+                    city_name_kana=row.city_name_kana.strip() if row.city_name_kana else None,
+                    town_name_kana=row.town_name_kana.strip() if row.town_name_kana else None,
+                    prefecture_name=row.prefecture_name.strip() if row.prefecture_name else None,
+                    city_name=row.city_name.strip() if row.city_name else None,
+                    town_name=row.town_name.strip() if row.town_name else None,
+                    multiple_postal_codes_per_town=row.multiple_postal_codes_per_town.strip() if row.multiple_postal_codes_per_town else None,
+                    koaza_numbering=row.koaza_numbering.strip() if row.koaza_numbering else None,
+                    has_chome=row.has_chome.strip() if row.has_chome else None,
+                    multiple_towns_per_postal_code=row.multiple_towns_per_postal_code.strip() if row.multiple_towns_per_postal_code else None,
+                    update_status=row.update_status.strip() if row.update_status else None,
+                    change_reason=row.change_reason.strip() if row.change_reason else None
                 )
                 data.append(postal_code)
                 if progress_mgr and task_id is not None:
@@ -188,22 +189,23 @@ def _read_csv_data_slow(csv_path: Path) -> List[JapanPostalCode]:
             reader = csv.reader(f)
             for row_num, row in enumerate(reader, start=1):
                 try:
+                    # Strip all fields and handle empty strings
                     postal_code = JapanPostalCode(
-                        local_government_code=row[0].strip(),
-                        old_postal_code=row[1].strip(),
-                        postal_code=row[2].strip(),
-                        prefecture_name_kana=row[3].strip(),
-                        city_name_kana=row[4].strip(),
-                        town_name_kana=row[5].strip(),
-                        prefecture_name=row[6].strip(),
-                        city_name=row[7].strip(),
-                        town_name=row[8].strip(),
-                        multiple_postal_codes_per_town=row[9].strip(),
-                        koaza_numbering=row[10].strip(),
-                        has_chome=row[11].strip(),
-                        multiple_towns_per_postal_code=row[12].strip(),
-                        update_status=row[13].strip(),
-                        change_reason=row[14].strip()
+                        local_government_code=row[0].strip() if row[0] else None,
+                        old_postal_code=row[1].strip() if row[1] else None,
+                        postal_code=row[2].strip() if row[2] else None,
+                        prefecture_name_kana=row[3].strip() if row[3] else None,
+                        city_name_kana=row[4].strip() if row[4] else None,
+                        town_name_kana=row[5].strip() if row[5] else None,
+                        prefecture_name=row[6].strip() if row[6] else None,
+                        city_name=row[7].strip() if row[7] else None,
+                        town_name=row[8].strip() if row[8] else None,
+                        multiple_postal_codes_per_town=row[9].strip() if row[9] else None,
+                        koaza_numbering=row[10].strip() if row[10] else None,
+                        has_chome=row[11].strip() if row[11] else None,
+                        multiple_towns_per_postal_code=row[12].strip() if row[12] else None,
+                        update_status=row[13].strip() if row[13] else None,
+                        change_reason=row[14].strip() if row[14] else None
                     )
                     data.append(postal_code)
                     if progress_mgr and task_id is not None:

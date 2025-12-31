@@ -122,16 +122,28 @@ class JapanPostalCode(BaseModel):
     @classmethod
     def validate_postal_code(cls, v: str) -> str:
         """Validate postal code is 7 digits."""
+        if v is None:
+            raise ValueError('Postal code cannot be None')
+        # Strip whitespace first
+        v = v.strip()
         if len(v) != 7 or not v.isdigit():
-            raise ValueError('Postal code must be 7 digits')
+            raise ValueError(f'Postal code must be 7 digits, got: {repr(v)}')
         return v
     
     @field_validator('old_postal_code')
     @classmethod
     def validate_old_postal_code(cls, v: str) -> str:
         """Validate old postal code is 3 or 5 digits."""
+        if v is None:
+            return None
+        # Strip whitespace first
+        v = v.strip()
+        # Allow empty string (will be None)
+        if not v:
+            return None
+        # Validate length and digits
         if not (len(v) in [3, 5]) or not v.isdigit():
-            raise ValueError('Old postal code must be 3 or 5 digits')
+            raise ValueError(f'Old postal code must be 3 or 5 digits, got: {repr(v)}')
         return v
     
     model_config = ConfigDict(

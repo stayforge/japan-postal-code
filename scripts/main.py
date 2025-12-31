@@ -137,15 +137,15 @@ async def main():
         save_sqlite(data, output_files['sqlite']),
         # Save grouped data files
         save_grouped_json(grouped_data, datasets_dir),
-        save_grouped_yaml(grouped_data, datasets_dir),
-        save_grouped_csv(grouped_data, datasets_dir),
-        save_grouped_xml(grouped_data, datasets_dir),
-        save_grouped_parquet(grouped_data, datasets_dir),
-        save_grouped_msgpack(grouped_data, datasets_dir),
-        save_grouped_ndjson(grouped_data, datasets_dir),
-        save_grouped_toml(grouped_data, datasets_dir),
-        save_grouped_feather(grouped_data, datasets_dir),
-        save_grouped_bson(grouped_data, datasets_dir)
+        # save_grouped_yaml(grouped_data, datasets_dir),
+        # save_grouped_csv(grouped_data, datasets_dir),
+        # save_grouped_xml(grouped_data, datasets_dir),
+        # save_grouped_parquet(grouped_data, datasets_dir),
+        # save_grouped_msgpack(grouped_data, datasets_dir),
+        # save_grouped_ndjson(grouped_data, datasets_dir),
+        # save_grouped_toml(grouped_data, datasets_dir),
+        # save_grouped_feather(grouped_data, datasets_dir),
+        # save_grouped_bson(grouped_data, datasets_dir)
         )
     finally:
         # Close progress manager
