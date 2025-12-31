@@ -42,8 +42,8 @@ jobs:
           echo "Error: datasets directory not found"
           exit 1
         fi
-        echo "Files in datasets directory:"
-        find datasets -type f || echo "No files found"
+        echo "Files in datasets directory (direct files only, no subdirectories):"
+        ls -la datasets/ || echo "No files found"
 
     - name: Create or update release
       uses: softprops/action-gh-release@v1
@@ -55,9 +55,9 @@ jobs:
           
           This release contains updated Japan postal code data in multiple formats.
           
-          All files from the `datasets/` directory are included in the release assets.
+          All files from the `datasets/` directory (excluding subdirectories) are included in the release assets.
         files: |
-          datasets/**
+          datasets/*
         draft: false
         prerelease: false
         overwrite: true
