@@ -3,4 +3,9 @@ pydantic
 pyarrow
 msgpack
 tomli
+tomli-w
 pymongo
+tqdm
+pandas>=2.0.0
+orjson>=3.9.0
+rich>=13.0.0

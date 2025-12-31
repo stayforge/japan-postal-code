@@ -16,3 +16,180 @@ JSON / YAML / CSV / XML / Parquet / MessagePack / NDJSON / TOML / Feather / BSON
 | **Feather** | **日本語:**<br>Apache Arrow 形式で、メモリマッピング読み込みにより速度が非常に速い<br>ゼロコピー読み込みで、シリアライズ/デシリアライズが不要<br>言語横断的な相互運用性（Python、R、Julia など）<br>データ型情報を保持<br>データサイエンスや分析ワークフローに適している<br><br>**English:**<br>Apache Arrow format with extremely fast memory-mapped reading<br>Zero-copy reading without serialization/deserialization<br>Cross-language interoperability (Python, R, Julia, etc.)<br>Preserves data type information<br>Suitable for data science and analysis workflows | [all_data.feather](https://stayforge.github.io/japan-postal-code/datasets/all_data.feather) |
 | **BSON** | **日本語:**<br>バイナリ JSON で、JSON の全ての利点を保持<br>ファイルサイズが JSON より小さい<br>より多くのデータ型（日付、バイナリ、正規表現など）をサポート<br>MongoDB のネイティブ形式で、クエリとインデックスの効率が高い<br>データベースストレージやネットワーク転送に適している<br><br>**English:**<br>Binary JSON that retains all advantages of JSON<br>Smaller file size than JSON<br>Supports more data types (dates, binary, regular expressions, etc.)<br>MongoDB's native format with efficient queries and indexes<br>Suitable for database storage and network transmission | [all_data.bson](https://stayforge.github.io/japan-postal-code/datasets/all_data.bson)       |
 | **SQLite** | **日本語:**<br>ファイルベースのデータベースで、独立したサーバーが不要<br>SQL クエリをサポートし、インデックスを作成してクエリを高速化できる<br>ACID 特性により、データ整合性が保証される<br>軽量（コアライブラリは数百KBのみ）<br>アプリケーション組み込みデータベースやデータ分析に適している<br><br>**English:**<br>File-based database, no separate server required<br>Supports SQL queries, can create indexes to speed up queries<br>ACID properties ensure data integrity<br>Lightweight (core library is only several hundred KB)<br>Suitable for embedded databases in applications and data analysis | [all_data.db](https://stayforge.github.io/japan-postal-code/datasets/all_data.db)           |
+
+## グループ化データ構造 / Grouped Data Structure
+
+### 概要 / Overview
+
+**日本語:**
+データは郵便番号の前3桁でグループ化され、階層的なファイル構造で提供されています。これにより、単一ファイルのサイズを削減し、特定の地域のデータを効率的に取得できます。
+
+**English:**
+Data is grouped by the first 3 digits of postal codes and provided in a hierarchical file structure. This reduces the size of individual files and allows efficient retrieval of data for specific regions.
+
+### ファイル構造 / File Structure
+
+```
+datasets/
+├── 176.json          # 176で始まる全ての郵便番号の完全なレコードリスト
+├── 176.yaml          # All postal codes starting with 176
+├── 176.csv
+├── 176/
+│   ├── 0005.json     # 郵便番号 1760005 の完全なレコード
+│   ├── 0005.yaml     # Complete record for postal code 1760005
+│   ├── 0005.csv
+│   ├── 0006.json     # 郵便番号 1760006 の完全なレコード
+│   └── ...
+├── 177.json
+├── 177/
+│   └── ...
+└── ...
+```
+
+### データ取得方法 / How to Retrieve Data
+
+#### 方法1: 前3桁でグループ全体を取得 / Method 1: Get All Records by Prefix
+
+**日本語:**
+特定の地域（前3桁）の全ての郵便番号データを取得する場合：
+
+**例: 176で始まる全ての郵便番号を取得**
+```javascript
+// JavaScript の例
+fetch('https://stayforge.github.io/japan-postal-code/datasets/176.json')
+  .then(response => response.json())
+  .then(data => {
+    // data は 176 で始まる全ての郵便番号の配列
+    console.log(data);
+  });
+```
+
+```python
+# Python の例
+import requests
+import json
+
+response = requests.get('https://stayforge.github.io/japan-postal-code/datasets/176.json')
+data = response.json()
+# data は 176 で始まる全ての郵便番号のリスト
+```
+
+**English:**
+To retrieve all postal code data for a specific region (first 3 digits):
+
+**Example: Get all postal codes starting with 176**
+```javascript
+// JavaScript example
+fetch('https://stayforge.github.io/japan-postal-code/datasets/176.json')
+  .then(response => response.json())
+  .then(data => {
+    // data is an array of all postal codes starting with 176
+    console.log(data);
+  });
+```
+
+```python
+# Python example
+import requests
+import json
+
+response = requests.get('https://stayforge.github.io/japan-postal-code/datasets/176.json')
+data = response.json()
+# data is a list of all postal codes starting with 176
+```
+
+#### 方法2: 特定の郵便番号を直接取得 / Method 2: Get Specific Postal Code
+
+**日本語:**
+完全な7桁の郵便番号が分かっている場合、直接そのファイルを取得できます：
+
+**例: 郵便番号 1760005 を取得**
+```javascript
+// JavaScript の例
+fetch('https://stayforge.github.io/japan-postal-code/datasets/176/0005.json')
+  .then(response => response.json())
+  .then(data => {
+    // data は 1760005 の郵便番号データ（単一オブジェクトまたは配列）
+    console.log(data);
+  });
+```
+
+```python
+# Python の例
+import requests
+
+# 郵便番号を分割
+postal_code = "1760005"
+prefix = postal_code[:3]  # "176"
+suffix = postal_code[3:]  # "0005"
+
+url = f'https://stayforge.github.io/japan-postal-code/datasets/{prefix}/{suffix}.json'
+response = requests.get(url)
+data = response.json()
+# data は 1760005 の郵便番号データ
+```
+
+**English:**
+If you know the complete 7-digit postal code, you can directly retrieve that file:
+
+**Example: Get postal code 1760005**
+```javascript
+// JavaScript example
+fetch('https://stayforge.github.io/japan-postal-code/datasets/176/0005.json')
+  .then(response => response.json())
+  .then(data => {
+    // data is the postal code data for 1760005 (single object or array)
+    console.log(data);
+  });
+```
+
+```python
+# Python example
+import requests
+
+# Split postal code
+postal_code = "1760005"
+prefix = postal_code[:3]  # "176"
+suffix = postal_code[3:]  # "0005"
+
+url = f'https://stayforge.github.io/japan-postal-code/datasets/{prefix}/{suffix}.json'
+response = requests.get(url)
+data = response.json()
+# data is the postal code data for 1760005
+```
+
+### 利点 / Advantages
+
+**日本語:**
+- **ファイルサイズの削減**: 単一の大きなファイルではなく、小さなファイルに分割されるため、必要なデータのみをダウンロードできます
+- **高速な取得**: 特定の地域や郵便番号のデータを直接取得できるため、全体を読み込む必要がありません
+- **帯域幅の節約**: 必要なデータのみを取得することで、ネットワーク帯域幅を節約できます
+- **キャッシュ効率**: 小さなファイルはブラウザやCDNでキャッシュしやすく、再取得が高速です
+- **GitHub Pages との互換性**: 静的ファイルホスティングに最適化されており、GitHub Pages で直接提供できます
+
+**English:**
+- **Reduced File Size**: Data is split into smaller files instead of one large file, allowing you to download only the data you need
+- **Faster Retrieval**: You can directly retrieve data for specific regions or postal codes without loading the entire dataset
+- **Bandwidth Savings**: Fetching only the required data saves network bandwidth
+- **Cache Efficiency**: Smaller files are easier to cache in browsers or CDNs, enabling faster subsequent retrievals
+- **GitHub Pages Compatibility**: Optimized for static file hosting and can be directly served via GitHub Pages
+
+### 対応フォーマット / Supported Formats
+
+全てのフォーマット（JSON, YAML, CSV, XML, Parquet, MessagePack, NDJSON, TOML, Feather, BSON）でグループ化されたデータが提供されています。
+
+All formats (JSON, YAML, CSV, XML, Parquet, MessagePack, NDJSON, TOML, Feather, BSON) are available in grouped structure.
+
+**例 / Examples:**
+- `https://stayforge.github.io/japan-postal-code/datasets/176.json`
+- `https://stayforge.github.io/japan-postal-code/datasets/176.yaml`
+- `https://stayforge.github.io/japan-postal-code/datasets/176/0005.json`
+- `https://stayforge.github.io/japan-postal-code/datasets/176/0005.csv`
+
+## 著作権 / Copyright
+
+**日本語:**
+本プロジェクトで提供されている郵便番号データの著作権は、日本郵便株式会社（Japan Post）に帰属します。本プロジェクトは、日本郵便が提供する公式データに対して、データの分割とクリーンアップ（整理）のみを行っており、データの内容自体は変更していません。
+
+**English:**
+The copyright of the postal code data provided in this project belongs to Japan Post Co., Ltd. This project only performs data splitting and cleaning (organization) on the official data provided by Japan Post, and does not modify the content of the data itself.
