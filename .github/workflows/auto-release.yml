@@ -1,0 +1,53 @@
+name: Auto Release
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    # Skip if commit message contains [skip release]
+    if: "!contains(github.event.head_commit.message, '[skip release]')"
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Get current date
+      id: date
+      run: |
+        echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+    - name: Delete existing tag if exists
+      run: |
+        TAG_NAME="${{ steps.date.outputs.date }}"
+        if git rev-parse "$TAG_NAME" >/dev/null 2>&1 || git ls-remote --tags origin "$TAG_NAME" | grep -q "$TAG_NAME"; then
+          echo "Tag $TAG_NAME exists, deleting..."
+          git tag -d "$TAG_NAME" 2>/dev/null || true
+          git push origin ":refs/tags/$TAG_NAME" 2>/dev/null || true
+        else
+          echo "Tag $TAG_NAME does not exist"
+        fi
+
+    - name: Create or update release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ steps.date.outputs.date }}
+        name: Release ${{ steps.date.outputs.date }}
+        body: |
+          Automated release for ${{ steps.date.outputs.date }}
+          
+          This release contains updated Japan postal code data in JSON, YAML, CSV, and XML formats.
+        draft: false
+        prerelease: false
+        overwrite: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
