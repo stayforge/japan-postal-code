@@ -1396,6 +1396,23 @@
   {
     "local_government_code": "26366",
     "old_postal_code": "61902",
+    "postal_code": "6190248",
+    "prefecture_name_kana": "キョウトフ",
+    "city_name_kana": "ソウラクグンセイカチョウ",
+    "town_name_kana": "シンセイダイ",
+    "prefecture_name": "京都府",
+    "city_name": "相楽郡精華町",
+    "town_name": "新精台",
+    "multiple_postal_codes_per_town": "0",
+    "koaza_numbering": "0",
+    "has_chome": "1",
+    "multiple_towns_per_postal_code": "0",
+    "update_status": "1",
+    "change_reason": "3"
+  },
+  {
+    "local_government_code": "26366",
+    "old_postal_code": "61902",
     "postal_code": "6190242",
     "prefecture_name_kana": "キョウトフ",
     "city_name_kana": "ソウラクグンセイカチョウ",
