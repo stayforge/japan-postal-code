@@ -7,11 +7,11 @@
   "town_name_kana": "ニシヨシノチョウクロブチ",
   "prefecture_name": "奈良県",
   "city_name": "五條市",
-  "town_name": "西吉野町黒淵",
+  "town_name": "西吉野町黒渕",
   "multiple_postal_codes_per_town": "0",
   "koaza_numbering": "0",
   "has_chome": "0",
   "multiple_towns_per_postal_code": "0",
-  "update_status": "0",
-  "change_reason": "0"
+  "update_status": "1",
+  "change_reason": "5"
 }
