@@ -790,13 +790,13 @@
     "town_name_kana": "ウナザワ",
     "prefecture_name": "東京都",
     "city_name": "西多摩郡奥多摩町",
-    "town_name": "海沢",
+    "town_name": "海澤",
     "multiple_postal_codes_per_town": "0",
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "0",
-    "change_reason": "0"
+    "update_status": "1",
+    "change_reason": "5"
   },
   {
     "local_government_code": "13308",
@@ -807,13 +807,13 @@
     "town_name_kana": "ウメザワ",
     "prefecture_name": "東京都",
     "city_name": "西多摩郡奥多摩町",
-    "town_name": "梅沢",
+    "town_name": "梅澤",
     "multiple_postal_codes_per_town": "0",
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "0",
-    "change_reason": "0"
+    "update_status": "1",
+    "change_reason": "5"
   },
   {
     "local_government_code": "13308",
@@ -943,13 +943,13 @@
     "town_name_kana": "タナザワ",
     "prefecture_name": "東京都",
     "city_name": "西多摩郡奥多摩町",
-    "town_name": "棚沢",
+    "town_name": "棚澤",
     "multiple_postal_codes_per_town": "0",
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "0",
-    "change_reason": "0"
+    "update_status": "1",
+    "change_reason": "5"
   },
   {
     "local_government_code": "13308",

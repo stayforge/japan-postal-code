@@ -47,8 +47,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "29207",
@@ -132,8 +132,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "29207",
@@ -1254,8 +1254,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "29207",
