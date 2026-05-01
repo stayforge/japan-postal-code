@@ -4,7 +4,7 @@
   "postal_code": "4700117",
   "prefecture_name_kana": "アイチケン",
   "city_name_kana": "ニッシンシ",
-  "town_name_kana": "フジツカ",
+  "town_name_kana": "フジヅカ",
   "prefecture_name": "愛知県",
   "city_name": "日進市",
   "town_name": "藤塚",
@@ -12,6 +12,6 @@
   "koaza_numbering": "0",
   "has_chome": "1",
   "multiple_towns_per_postal_code": "0",
-  "update_status": "0",
-  "change_reason": "0"
+  "update_status": "1",
+  "change_reason": "5"
 }

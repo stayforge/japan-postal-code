@@ -2325,8 +2325,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2342,8 +2342,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2359,8 +2359,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2376,8 +2376,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2393,8 +2393,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2410,8 +2410,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2427,8 +2427,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2444,8 +2444,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2453,7 +2453,7 @@
     "postal_code": "0613605",
     "prefecture_name_kana": "ホッカイドウ",
     "city_name_kana": "イシカリシ",
-    "town_name_kana": "アツタベッカリ",
+    "town_name_kana": "アツタベツカリ",
     "prefecture_name": "北海道",
     "city_name": "石狩市",
     "town_name": "厚田別狩",
@@ -2461,8 +2461,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2478,8 +2478,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2495,8 +2495,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -2512,8 +2512,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3328,8 +3328,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3345,8 +3345,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3362,8 +3362,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3379,8 +3379,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3396,8 +3396,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3413,8 +3413,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3430,8 +3430,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3447,8 +3447,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3464,8 +3464,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3481,8 +3481,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3490,7 +3490,7 @@
     "postal_code": "0613103",
     "prefecture_name_kana": "ホッカイドウ",
     "city_name_kana": "イシカリシ",
-    "town_name_kana": "ハママスホロ",
+    "town_name_kana": "ハママスポロ",
     "prefecture_name": "北海道",
     "city_name": "石狩市",
     "town_name": "浜益幌",
@@ -3498,8 +3498,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
@@ -3515,8 +3515,8 @@
     "koaza_numbering": "0",
     "has_chome": "0",
     "multiple_towns_per_postal_code": "0",
-    "update_status": "1",
-    "change_reason": "5"
+    "update_status": "0",
+    "change_reason": "0"
   },
   {
     "local_government_code": "01235",
